@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9c0a3;
+  }
+  h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+  header {
+    background-color: #c02828;
+    text-align: center;
+    padding: 20px 0;
+  }
+  header h1 .hos {
+    color: white; /* Warna teks "HOS" diatur menjadi putih */
+}
+
+  header h1 .cafe {
+    color: yellow; /* Warna teks "CAFE" diatur menjadi kuning */
+}  
+  
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+  }
+    
+  .menu-info {
+    padding: 10px;
+  }
+  
+  .menu-info p {
+    margin-bottom: 10px;
+  }
+  
+/* Atur ukuran gambar */
+.menu-item img {
+    width: 300px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 200px; /* Sesuaikan ukuran sesuai kebutuhan */
+  }
+#pesan-menu {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+#pesan-menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Contoh font-family yang menarik */
+  }
+  
+#pesan-menu a {
+    font-weight: bold; /* Membuat teks tautan menjadi tebal */
+    color: #f1f1f1e6; /* Warna teks tautan */
+    text-decoration: none; /* Menghapus garis bawah default pada tautan */
+    transition: color 0.3s; /* Efek transisi ketika tautan dihover */
+  }
+  
+/* bagian Contact Us */
+#contact-us {
+  background-color: #bc2f2f;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact-us h3 {
+  color: #f8f4f4;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+}
+
+#contact-us p {
+  color: #f3ebeb;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+}
+
+/* Ubah tata letak footer */
+footer {
+  margin-top: 30px;
+  padding-top: 50px;
+  border-top: 10px solid #000; /* Ubah warna garis menjadi hitam */
+}
+form {
+  text-align: left;
+  display: grid;
+  grid-gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #0f0e0e;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* styles.css */
+
+/* Tata letak dan gaya untuk footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Stil untuk formulir kontak */
+.contact-form {
+  width: 300px; /* Sesuaikan dengan lebar formulir yang diinginkan */
+  margin-bottom: 20px;
+}
+
+/* Stil untuk kontainer peta */
+.map-container {
+  width: 300px; 
+}
+
+/* Responsive styling */
+@media only screen and (min-width: 700px) {
+  /* Pada layar yang lebih besar, tata letak dua kolom */
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
